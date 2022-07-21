@@ -1,7 +1,7 @@
 #!/bin/bash
-i=0
-while [ $i -lt 10 ]
+i=20
+until [ $i -lt 11 ]
 do
 	echo "best school"
-	let i=i+1
+	let i-=1
 done

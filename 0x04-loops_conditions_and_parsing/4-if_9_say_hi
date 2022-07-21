@@ -1,0 +1,13 @@
+#!/bin/bash
+i=0
+j=8
+while [ $i -lt 10 ]
+do
+	if [ $i -eq $j ]
+	then
+		echo "Hi"
+	else
+		echo "best school"
+	fi
+	let i=i+1
+done
