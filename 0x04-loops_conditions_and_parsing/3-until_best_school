@@ -1,7 +1,0 @@
-#!/bin/bash
-i=20
-until [ $i -lt 11 ]
-do
-	echo "best school"
-	let i-=1
-done
